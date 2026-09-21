@@ -1,0 +1,42 @@
+{ margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: Arial, sans-serif; background: #fff8ed; color: #2b1708; }
+header { min-height: 650px; background: linear-gradient( rgba(35, 15, 5, 0.75), rgba(35, 15, 5, 0.75) ), url("osh.jpg");
+background-size: cover;
+background-position: center;
+color: white;
+}
+nav { height: 80px; display: flex; justify-content: space-between; align-items: center; padding: 0 8%; }
+nav h2 { font-size: 26px; }
+.menu { display: flex; gap: 30px; }
+.menu a { color: white; text-decoration: none; font-size: 16px; }
+.hero { max-width: 800px; margin: 120px auto; text-align: center; padding: 20px; }
+.small-title { color: #e5a11a; font-size: 14px; font-weight: bold; letter-spacing: 3px; }
+.hero h1 { font-size: 65px; margin: 20px 0; }
+.description { font-size: 19px; line-height: 1.6; margin-bottom: 30px; }
+button { background: #c87913; color: white; border: none; padding: 16px 32px; border-radius: 8px; font-size: 17px; cursor: pointer; }
+button:hover { background: #a85f0c; }
+.osh-section { text-align: center; padding: 100px 20px; }
+.osh-section h2 { font-size: 42px; margin: 15px 0; }
+.osh-section p:not(.small-title) { max-width: 600px; margin: 0 auto 20px; line-height: 1.7; font-size: 18px; }
+.price { font-size: 30px; font-weight: bold; margin: 25px 0; color: #b4670c; }
+.about { text-align: center; padding: 90px 20px; background: #f1dfc5; }
+.about h2 { font-size: 40px; margin-bottom: 20px; }
+.about p { max-width: 650px; margin: auto; font-size: 18px; line-height: 1.7; }
+footer { text-align: center; background: #241207; color: white; padding: 60px 20px; }
+footer h2 { margin-bottom: 20px; }
+footer p { margin: 10px; }
+.order-btn {
+    display: inline-block;
+    background: #c87913;
+    color: white;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.order-btn:hover {
+    background: #a85f0c;
+}
